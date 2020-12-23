@@ -17,7 +17,7 @@ Structure of a scene
 
 The scene starts from a parent node, called the "Root" node. All other nodes (called child nodes) inherit from this main node. In the figure 1, a first child node "Liver" is defined and represents a first object. Usually, one node gathers the components associated with the same object (same degrees of freedom).
 
-This design is highly modular, since components in the scene are independent of each other. One physical model (springs with _SpringForceField_) could be simply replaced by another one (triangular FEM with _TriangleFEMForceField_) by changing one component in the graph. In the same way, an explicit integration scheme (_EulerSolver_) could be replaced by an implicit one (_EulerImplicitSolver_) by modifying one XML line in the scene file. This high modularity of the framework is induced by the scenegraph-visitor approach described below.
+Furthermore, scene structure is designed to be modular ~~since components in the scene are independent of each other~~ i.e. its components are interchangable. One physical model (springs with _SpringForceField_) could be simply replaced by another one (triangular FEM with _TriangleFEMForceField_) by changing one component in the graph. In the same way, an explicit integration scheme (_EulerSolver_) could be replaced by an implicit one (_EulerImplicitSolver_) by modifying one XML line in the scene file. This high modularity of the framework is induced by the scenegraph-visitor approach described below.
 
 <div style="text-align:center;width: 80%;margin: 0 10% 0;">
 
