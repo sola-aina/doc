@@ -39,9 +39,9 @@ The figure 3 shows a simulation involving two different objects. One node can co
 
 To build a simulation in SOFA, the scene graph can be written both using:
 
-*   XML files. Read the [associated page](https://www.sofa-framework.org/support/doc/using-sofa/write-a-scene-in-xml/) about how to write a scene in XML.
-*   Python scripts. Read the [associated page](https://www.sofa-framework.org/support/doc/using-sofa/features/python-scripting/) about how to write in Python.
-*   C++ [TODO]
+*   XML files. Read the [associated page](https://www.sofa-framework.org/support/doc/using-sofa/write-a-scene-in-xml/) for more information about how to write a scene in XML.
+*   Python scripts. Read the [associated page](https://www.sofa-framework.org/support/doc/using-sofa/features/python-scripting/) for more information about how to create a scene in Python.
+*   C++ program. Read the [associated page](https://www.sofa-framework.org/community/doc/programming-with-sofa/create-your-scene-in-cpp/) for more information about how to create a scene in C++
 
 
 Data
