@@ -41,6 +41,7 @@ To build a simulation in SOFA, the scene graph can be written both using:
 
 *   XML files. Read the [associated page](https://www.sofa-framework.org/support/doc/using-sofa/write-a-scene-in-xml/) about how to write a scene in XML.
 *   Python scripts. Read the [associated page](https://www.sofa-framework.org/support/doc/using-sofa/features/python-scripting/) about how to write in Python.
+*   C++ [TODO]
 
 
 Data
